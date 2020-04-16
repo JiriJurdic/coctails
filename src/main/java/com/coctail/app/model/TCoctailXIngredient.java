@@ -1,4 +1,4 @@
-package com.coctail.app;
+package com.coctail.app.model;
 
 import java.io.Serializable;
 
@@ -10,10 +10,6 @@ import javax.persistence.MapsId;
 import javax.persistence.Table;
 
 import org.hibernate.annotations.ManyToAny;
-
-import com.coctail.app.model.CoctailIngredientId;
-import com.coctail.app.model.TCoctail;
-import com.coctail.app.model.TIngredienr;
 
 @Entity
 @Table(name = "t_coctail_x_ingredient", schema = "co")
