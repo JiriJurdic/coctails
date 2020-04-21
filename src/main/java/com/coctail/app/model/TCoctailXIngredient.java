@@ -13,7 +13,7 @@ import javax.persistence.Table;
 //import org.hibernate.annotations.ManyToAny;
 
 @Entity
-@Table(name = "t_coctail_x_ingredient", schema = "co")
+@Table(name = "t_coctails_x_ingredients", schema = "co")
 public class TCoctailXIngredient implements Serializable {
 	
 	@EmbeddedId

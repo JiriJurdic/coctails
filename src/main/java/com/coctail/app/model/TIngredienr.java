@@ -11,7 +11,7 @@ import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "t_ingredients", schema = "co")
+@Table(name = "t-ingredients", schema = "co")
 public class TIngredienr implements Serializable{
 	
 	@Id

@@ -15,6 +15,13 @@ public class CoctailIngredientId implements Serializable{
 	
 	
 	
+	public CoctailIngredientId() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+
+
 	public CoctailIngredientId(Long coctailId, Long ingredientId) {
 		this.coctailId = coctailId;
 		this.ingredientId = ingredientId;
